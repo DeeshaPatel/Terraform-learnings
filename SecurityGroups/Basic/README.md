@@ -1,0 +1,1 @@
+This represents the basic security group for SSH with 22 port number. 
