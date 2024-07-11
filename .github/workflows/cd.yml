@@ -19,6 +19,7 @@ jobs:
           aws-region: ${{ env.AWS_REGION }}
       - name: apply terraform
         run: | 
-          cd SecurityGroups/Basic/
+          cd VPC/WithInternetGateway
           terraform init
           terraform plan 
+          terraform apply
