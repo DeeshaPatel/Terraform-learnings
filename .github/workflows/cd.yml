@@ -20,4 +20,5 @@ jobs:
       - name: apply terraform
         run: | 
           cd SecurityGroups/Basic/
+          terraform init
           terraform plan 
