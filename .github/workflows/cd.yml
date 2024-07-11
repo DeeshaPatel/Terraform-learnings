@@ -22,4 +22,3 @@ jobs:
           cd SecurityGroups/Basic/
           terraform init
           terraform plan 
-          terraform destroy
