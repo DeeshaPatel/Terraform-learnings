@@ -23,7 +23,7 @@ resource "aws_security_group" "security_group_test" {
   tags = {
     Name = "allow_SSH"
   }
-}
+} 
 
 resource "aws_vpc_security_group_ingress_rule" "ingress_rule1" {
   cidr_ipv4         = aws_vpc.main.cidr_block
